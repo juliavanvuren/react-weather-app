@@ -24,6 +24,13 @@ body {
     margin: 0px 10px;
   }
 
+  canvas {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
   .border {
     border: 1px solid rgb(112, 117, 122);
     border-radius: 4px;
@@ -32,15 +39,14 @@ body {
   }
   
   .temperature {
-    font-size: 60px;
+    font-size: 58px;
     font-weight: 400;
-    position: relative;
-    top: 19px
+   display: inline-block;
      }
   
 .units {
   position: relative;
-  top: -12px;
+  top: -28px;
 }
 
 ul {
