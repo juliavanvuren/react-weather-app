@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  max-width: 550px;
+  max-width: 500px;
   }
 
   h1 {
@@ -28,6 +28,7 @@ body {
     height: 64px;
     width: 64px;
     margin-right: 10px;
+    float: left;
     display: inline-block;
   }
 
@@ -39,16 +40,24 @@ body {
   }
   
   .temperature {
+    color: rgb(33, 33,33);
     font-size: 58px;
     font-weight: 400;
    display: inline-block;
+   padding-top: 20px;
      }
   
 .units {
+  font-size: 13px;
+  color: black;
   position: relative;
   top: -28px;
+  
 }
 
+a {
+  text-decoration: none;
+}
 ul {
     list-style-type: none;
     padding: 0;
