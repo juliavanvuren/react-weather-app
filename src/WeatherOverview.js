@@ -14,7 +14,7 @@ export default function WeatherOverview(props) {
 <div className="col-6">
   
   <span className="float-left">
-  <WeatherIcon code={props.data.icon} />
+  <WeatherIcon code={props.data.icon} size={50} />
   </span>
   <span className="float-left">
     <WeatherTemperature celsius={props.data.temperature} />
