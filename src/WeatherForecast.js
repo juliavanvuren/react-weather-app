@@ -13,7 +13,6 @@ export default function WeatherForecast(props) {
   }
 
   if (loaded) {
-    console.log(forecast);
       return (
       <div className="WeatherForecast">
         <div className="row">
@@ -24,7 +23,7 @@ export default function WeatherForecast(props) {
       </div>
     );
    } else {
-    let apiKey = "c3895a10923317988546b6bf1fbc2d48";
+    let apiKey = "b400ae3b711a616262d18b0ca2cbe78f";
     let longitude = props.coordinates.lon;
     let latitude = props.coordinates.lat;
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
